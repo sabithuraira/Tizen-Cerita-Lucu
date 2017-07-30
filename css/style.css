@@ -1,0 +1,12 @@
+.popup-content-padding {
+	padding: 18px 24px;
+}
+
+.title-detail {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.btn-icon-back::after {
+   -webkit-mask-image: url(./images/core_icon_back.png);
+}

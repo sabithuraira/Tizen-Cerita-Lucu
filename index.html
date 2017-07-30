@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width,user-scalable=no"/>
+	<link rel="stylesheet" href="lib/tau/mobile/theme/default/tau.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<title>Cerita Lucu</title>
+	<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-database.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-messaging.js"></script>
+</head>
+
+<body>
+<!-- Start of first page: #one -->
+
+	<div class="ui-page active" id="one">
+		<header>
+			<h1>Cerita Lucu</h1>
+		</header><!-- /header -->
+	
+		<div class="ui-content">
+			
+			<ul class="ui-listview" id="list-data">
+				<li class="ui-group-index">Welcome to wkwkwk land..</li>
+			</ul>
+		</div><!-- /content -->
+	</div><!-- /page one -->
+
+	<div class="ui-page" id="detail">
+		<div class="ui-header" data-position="fixed">
+			<h1>Left button</h1>
+			<a class="ui-header-btn ui-header-btn-left ui-header-btn-icon btn-icon-back" id="back-btn"></a>
+		</div>
+		
+		<div class="ui-content">
+			<div id="title-detail" class="title-detail">Memori Jangka Pendek</div>
+			<hr/>
+			<div id="content-detail">
+				Seorang pria pergi menemui dokter karena memiliki masalah mengenai ingatannya.
+	
+				Pria: “Saya telah mengalami banyak masalah dalam mengingat hal-hal yang terjadi beberapa jam sebelumnya, atau pada memori jangka pendek saya.”
+				
+				Dokter: “Sudah berapa lama ini terjadi?”
+				
+				Pria: “Bingung melihat kembali pada dokter). “Sudah berapa lama apanya?”
+			</div>
+		</div><!-- /content -->
+	</div><!-- /page one -->
+
+<script type="text/javascript" src="lib/tau/mobile/js/tau.js"></script>
+<script type="text/javascript" src="lib/jquery.js"></script>
+<script src="js/main.js"></script>
+<script>
+        main.init();
+    </script>
+</body>
+</html>
