@@ -10,3 +10,7 @@
 .btn-icon-back::after {
    -webkit-mask-image: url(./images/core_icon_back.png);
 }
+
+.content-detail{
+	width: 90%;
+}

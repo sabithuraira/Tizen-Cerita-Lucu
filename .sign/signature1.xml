@@ -4,15 +4,19 @@
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>nmL1zsEnRAMtRXCDU982bDSAK2FRtdkZXOmlMpClaLM=</DigestValue>
+<DigestValue>dVJBuocezh09io05nHLPOj8Y5nEAKOXdQy3rg96gdLg=</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>3/iRgHrq9Q3p26XS6H3O9n9/502x0Z+a1znqzjdI4Rk=</DigestValue>
 </Reference>
+<Reference URI="css%2Fimages%2Fcore_icon_back.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>O7ilwpc6uCcYDDXjJmyRkfIIfnfHGrZx3sWipM7Aj14=</DigestValue>
+</Reference>
 <Reference URI="css%2Fstyle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>iIN3q1OCrEwJRWZZEGTyJa2YW3q13c0CWE3i0bPCANA=</DigestValue>
+<DigestValue>w14xeDjrOtFx10e3tjQFLeMlfEGIofHGDlRJNRCdxkk=</DigestValue>
 </Reference>
 <Reference URI="icon.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -20,7 +24,7 @@
 </Reference>
 <Reference URI="index.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>FHLHQ6/3sbrbGHU3K2SSzr9Pk4F2+RlgcpXg0BseT/g=</DigestValue>
+<DigestValue>NvDKI1rmScbdBR5qOIaVJfNBTGC/5XJ+gc5crTXuB2k=</DigestValue>
 </Reference>
 <Reference URI="joyful.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -28,7 +32,7 @@
 </Reference>
 <Reference URI="js%2Fmain.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>wi9Hp4NdGU8Ty6eL03vNQOy0IGOC9ThEfB6D3M69Ip0=</DigestValue>
+<DigestValue>A/2tJgkucTmRvweEsCjsosfZScWx11++5+dPWoVQI9c=</DigestValue>
 </Reference>
 <Reference URI="lib%2Fjquery.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -971,9 +975,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-XlYyf0LztdYqEJcwfnKo6VYYK7PFtg26RUB+o0OKanEtIxI0DB/gSUKF/1AmbeEIAmxyyl9cz5tx
-Y5wjUyAqKsNCgiKYj6grgrI0PLyKHcBQfxsQ04RBhvAq7z4Wxn63raaPLtwSYoyk6lstSZ2gtZdy
-5+Wv80wMJWjc6tWh1uE=
+mQZlvrAwcrBUrsfyqpqc1/XmiYXSkgg7nAswtTdF1oTxq6gS8yZzndHMkqO77EJaJlcklA3heTHz
+lQm6MCkZKwfUa1NHAKkWzTIlRr18YcALGnFkkM3WuVOnIJxuGY5tI2xwgg8EzJxLC+z5W9hZuh0J
+FfXISJ+G3tot1wwZA/U=
 </SignatureValue>
 <KeyInfo>
 <X509Data>
